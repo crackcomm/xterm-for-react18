@@ -1,9 +1,8 @@
 {
 	"name": "@devt8/xterm-for-react",
-	"version": "18.0.2",
+	"version": "18.0.3",
 	"description": "A React wrapper made for XTerm.js",
-	"main": "dist/src/index.js",
-	"types": "dist/src/index.d.ts",
+	"main": "src/index.ts",
 	"scripts": {
 		"clean": "rimraf dist",
 		"build": "npm run clean && tsc --declaration",
